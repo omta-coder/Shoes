@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+:root{
+  --red:#d01c28;
+  --gray: #2e2e2e;
+}
+*{
+  margin: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1280px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+.logo img{
+  height: 50px;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+button{
+  all: unset;
+  padding: 6px 16px;
+  background-color: var(--red);
+  color: #fff;
+  height: 32px;
+  font-weight: 500;
+}
+.home{
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 72px);
+}
+.home h1{
+  font-weight: 900;
+  line-height: 109px;
+  font-size: 120px;
+  font-family: gilroy;
+}
+.home p{
+  font-weight: 600;
+  color: var(--gray);
+  font-size: .9rem;
+}
+.btn{
+  display: flex;
+  gap: 40px;
+}
+.btn2{
+  background-color: transparent;
+  color: #2e2e2e;
+  border: .1rem solid var(--gray);
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.shoes-image img{
+ height: 500px;
+}
